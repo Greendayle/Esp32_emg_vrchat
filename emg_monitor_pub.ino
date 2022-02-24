@@ -5,7 +5,7 @@
 #include "AsyncUDP.h"
 
 
-const char * ssid = "YOUR_WIFI_SSID_HERE;
+const char * ssid = "YOUR_WIFI_SSID_HERE";
 const char * password = "YOUR WIFI PASSWORD HERE";
 IPAddress broadcastIp(192, 255, 255, 255);
 AsyncUDP udp;
