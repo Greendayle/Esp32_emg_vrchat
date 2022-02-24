@@ -30,7 +30,10 @@ Then, you flash ESP32 with the https://github.com/Greendayle/Esp32_emg_vrchat/bl
 Before flashing adjust the file to put your WiFi SSID, password, and you local LAN IP address of the PC which is running VRChat (or your quest).
 ESP will send OSC messages directly to vrchat, it will try to modify `emg` avatar parameter.
 
+
 ATTENTION NEVER ATTACH EMG SENSOR TO YOUR BODY WHEN IT'S CONNECTED TO YOUR PC VIA USB, IT CAN CAUSE **DEATH** AT WORST CASE SCENARIO.
+
+
 Connect the ESP32 to powerbank, attach the Myoware to electrodes, put electrodes in the center of your target muscle, third (cabled) connection must be NOT on the muscle, but somewhere nearby.
 Consult Myoware manual for placement or experiment yourself. 
 Done! ESP is now sending muscle activation to your vrchat!
