@@ -21,7 +21,7 @@ Blue: 3v3 <-> + on myoware
 
 Violet: GND <-> - on myoware
 
-Violet: WHITE <-> SIG on myoware
+WHITE: VP <-> SIG on myoware
 
 White is connected to VP, which is CH0 of ADC1. Only ADC1 can work when wifi is enabled on ESP32.
 
